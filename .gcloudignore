@@ -1,0 +1,32 @@
+# Match .dockerignore semantics — anything not needed in the Cloud Run image
+.git
+.gitignore
+.gitattributes
+
+# Build artifacts
+node_modules
+.next
+coverage
+playwright-report
+test-results
+
+# Local config
+.env
+.env.*
+!.env.example
+
+# Tests + fixtures (Cloud Build runs `next build`, not the test suite)
+tests
+vitest.config.ts
+playwright.config.ts
+
+# Docs and dev
+docs
+README.md
+.worktrees
+
+# Editor / OS noise
+.DS_Store
+.idea
+.vscode
+*.log

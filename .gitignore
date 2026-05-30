@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+.env.local.*
+.env*.bak
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# coverage / test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# private fixtures (PII-bearing real PDFs — never committed)
+tests/fixtures-private/
+
+# misc
+*.log
+.cache/
+
+# git worktrees (project-local, per superpowers:using-git-worktrees skill)
+.worktrees/
+
+# AI agent configs (project-local instructions, not for the repo)
+CLAUDE.md
+GEMINI.md
+AGENTS.md
+.cursorrules
+.aider*
+.continue/
+.claude/
+
+# Internal planning docs (superpowers workflow plan artifacts, not for the repo)
+docs/superpowers/
+
+# Per-project CUCP institutional-memory precedents (created at runtime, not in repo).
+data/cucp-precedents/
+
+# Per-usecase rubric edits saved via /work/search/edit (created at runtime, not in repo).
+data/rubrics/
+.env.local
+node_modules

@@ -1,0 +1,240 @@
+{
+  "Title Page": {
+    "1": "Is not there, or does not contain the correct delegation signatures, or uses the wrong title page for the assignment type.",
+    "2": "Contains correct delegations but the form is outdated and contains incorrect or missing info.",
+    "3": "Contains correct delegations but has minor missing or has incorrect information on the form. Or, everything is correct but form is outdated.",
+    "4": "",
+    "5": "Contains all correct info and correct delegations, and form is updated."
+  },
+  "Certificate of Appraiser": {
+    "1": "Does not contain a certificate of appraiser for one or more of the appraisers, or is the wrong certificate for the assignment.",
+    "2": "Contains the appropriate number of certificates, but are outdated, contain incorrect information.",
+    "3": "Contains the appropriate number of certificates and contains all correct information and updated form version.",
+    "4": "",
+    "5": ""
+  },
+  "Senior Review Certificate": {
+    "1": "Is not there, or not signed by correct delegation, or the wrong certificate for the assignment.",
+    "2": "Signed by correct delegation but is outdated and contains many errors or omissions.",
+    "3": "Signed by correct delegation, is outdated, and contains few errors or omissions.",
+    "4": "Signed by correct delegation, is outdated, but contains no errors or omissions.",
+    "5": "Signed by correct delegation and contains no errors or omissions."
+  },
+  "Subject Assessor Map": {
+    "1": "Is not there.",
+    "2": "Is there but not outlined.",
+    "3": "Is there but it outlined by a color other than red.",
+    "4": "Subject is outlined by red but doesn't contain a caption describing.",
+    "5": "It is highlighted in red and contains a caption explaining the photo."
+  },
+  "Subject Photos": {
+    "1": "Contains none.",
+    "2": "Contains at least 1 but does not denote RW lines or dates the photos were taken. Missing photos of substantial improvements that were impacted.",
+    "3": "Contains sufficient number of photos, but missing captions denoting the proposed acquisition. Dates photos were taken and who took present.",
+    "4": "Contains sufficient number of photos and captions depicting the direction the photo was taken and proposed acquisition, but the RW lines are not denoted.",
+    "5": "Contains all of 4, but also has right of way lines denoted."
+  },
+  "RW 7-9": {
+    "1": "It is not there, or not filled out.",
+    "2": "Does not have all the fee, improvements, or damages line itemed. Or contains mathematical mistakes.",
+    "3": "Missing information on the top that is applicable to the assignment, or has 'see section' in the line items instead of listing all items that were within the section of the report.",
+    "4": "Has upper portion information filled in appropriately to the property type appraised. Has all land, improvements, damages, and CCW on the form and itemized. But the form is out of date. The values are allocated to either right of way or excess. There is no inconsistency for sizes or values within the report.",
+    "5": ""
+  },
+  "Scope of Work": {
+    "1": "There is none.",
+    "2": "There is an attempt, but falls short in some way from #3, or contains a limitation that would affect assignment results to be unreliable.",
+    "3": "Problem mostly identified. Extent it was inspected stated. Type and data researched. The type and analysis applied to arrive at conclusions. Assumptions and hypotheticals disclosed. Any assistance by others disclosed.",
+    "4": "Problem fully identified (client of report, users of report, intended use of report, definition of value, effective dates, assignment conditions, hypothetical conditions or extraordinary assumptions, subject property of assignment) combined with type and data researched and the analysis applied. Referenced Chapter 7 compliance. If partial acquisition is performed, it mentioned the state summation method.",
+    "5": "Contains everything in 4 in a manner that is easy to find and clearly labeled."
+  },
+  "General Assumptions & Limiting Conditions": {
+    "1": "Missing.",
+    "2": "",
+    "3": "Contains one that is sufficient to high quality appraisal examples.",
+    "4": "Contains one that is exemplary compared to most examples.",
+    "5": ""
+  },
+  "Introduction": {
+    "1": "Missing.",
+    "2": "Does not contain the minimum in 3, but an attempt was there.",
+    "3": "Contains a brief description of general information of the report as a whole. The report type, the proposed acquisitions, the ownership and current use.",
+    "4": "",
+    "5": ""
+  },
+  "Area Description": {
+    "1": "No area description.",
+    "2": "Area description is limited to geographical and historical information.",
+    "3": "Is limited to market area trends.",
+    "4": "Contains market trends, current uses, and employment data.",
+    "5": "Contains all of 4, new developments, and includes relevant geographical boundaries and info."
+  },
+  "Parcel Description": {
+    "1": "Does not have a larger parcel analysis, address, and parcel size.",
+    "2": "Missing item or items from 3.",
+    "3": "Identifies the larger parcel with an analysis, identify the parcel size, zoning, easements, contracts, leases, or restrictions on the parcel, current use, and physical characteristics of the parcel.",
+    "4": "",
+    "5": ""
+  },
+  "HABU Vacant": {
+    "1": "Does not analyze one or more of the tests.",
+    "2": "Contains the four tests, but fails to make a clear maximally productive use or comes up with two uses (not one use and an interim use though).",
+    "3": "Contains the dictionary of real estate definition of HABU. Analyzes the zoning, general plan, CCRs, and other restrictions or probable uses of the parcels legal use; then has an analysis on the parcels topography, size, and other physical characteristics for the remaining legal uses; then has an analysis based on market demand on the remaining uses that are financially feasible; and finally a statement of which use is maximally productive and why.",
+    "4": "Contains all of 3, but also states the most likely buyer.",
+    "5": "Contains all of 4 but states and considers each legal use (SFR, multifamily, retail store) under the zoning code."
+  },
+  "HABU Improved": {
+    "1": "Omits a HABU improved when the property is improved.",
+    "2": "States what its use is but fails to explain.",
+    "3": "Explains sufficiently why the current improvements either: add value and should continue as is, could be modified to a better use, or need to be demolished for another use.",
+    "4": "",
+    "5": "Explains extensively with market research why one of the 3 conclusions in 3 is chosen."
+  },
+  "HABU Reconciliation": {
+    "1": "None included when both improved and vacant was performed.",
+    "2": "States which one without explaining why or explains a use that isn't a previously concluded vacant use or improved.",
+    "3": "Reconciles to either the HABU as vacant and explains why, or HABU as improved as explains why.",
+    "4": "",
+    "5": ""
+  },
+  "Construction in the Manner Proposed": {
+    "1": "Does not have one.",
+    "2": "Has one, but only describes either the project or what will happen at the property, but not both.",
+    "3": "Contains a brief description of the project and what specifically will happen at the parcel.",
+    "4": "Contains more than a brief of both, but not quite detailed.",
+    "5": "Contains a detailed description of the project and a detailed illustration of the changes to the property."
+  },
+  "Methodology": {
+    "1": "No methodology at all.",
+    "2": "Is missing any of the required elements of 3, but has at least an attempt at explaining methodology.",
+    "3": "State the summation method was used, or if the abbreviated method was. If it was abbreviated stated the 3 conditions for its use existed. Provide the methodology & techniques used to value the subject property in the before; and, if applicable, in the after.",
+    "4": "",
+    "5": "Provided great detail and justification for the uses of the state summation or its abbreviated method. Provided great detail on the approaches and techniques used."
+  },
+  "Sales Comparison Approach (If used)": {
+    "1": "Missing items like a grid, discussion of the comparables or adjustments, basis for adjustments, rational for indicated unit value, etc.",
+    "2": "A sales grid was used, and sales were evaluated on a proper unit basis. A narrative section that contains each adjustment applied and explained its source. If qualitative adjustments were used, they explained why the market views that way and how much they relate to other adjustments; and the appraiser's reconciliation is not logically sound, but can be made so with the data contained within the report.",
+    "3": "A sales grid was used, and sales were evaluated on a proper unit basis. A narrative section that contains each adjustment applied and explained its source. If qualitative adjustments were used, they explained why the market views that way and how much they relate to other adjustments; and the appraiser's reconciliation is logically sound.",
+    "4": "",
+    "5": ""
+  },
+  "Income Approach (If used)": {
+    "1": "Assignment results are unreliable. May be from improper use of actual rent/lease data when market should have been used or vice-versa. May be from failure to describe or reconcile the lease type obtained. May be from assuming data rather than obtaining it from the market.",
+    "2": "Used the correct applicable data, and the indicative value is otherwise reliable, but the report is missing RW 07-11 pages, or uses data lesser than sales/leased data without mentioning that no sale/leased data exists.",
+    "3": "The report used either actual or the minimum market data correctly according to the context above. Any comparable property used has a corresponding RW 07-11/11A. A final indicative value for the subject is provided.",
+    "4": "",
+    "5": ""
+  },
+  "Cost Approach (If Used)": {
+    "1": "Depreciation was not applied, the RCN was calculated with a replacement that is more or less functional than existing improvements. Any other defect that would seriously question the integrity of the value conclusion.",
+    "2": "Only 1 bid was used to establish new cost, or no page/version number provided, or depreciation is applied arbitrary, or land value was not derived by a sales comparison approach, or not applied at all.",
+    "3": "Similar new costs to improvements used by recognized cost guide, or at least 2 bids, or 1 bid and 1 cost guide; and cost guide pages and version numbers are listed for all items and adjustments; and physical depreciation was applied using a table appropriately; and any functional/external obsolescence applied; and land from the sales comparison approach added.",
+    "4": "All of 3, but included more cost sources than the minimum required.",
+    "5": ""
+  },
+  "Reconciliation": {
+    "1": "Only provides a final value or fails to reconcile at all.",
+    "2": "In any scenario, provides only a final value with only a limited explanation.",
+    "3": "Evaluated the strengths and weaknesses of each approach based on the quality and quantity of data obtained in each to place weight on one or more approaches to derive a final value conclusion.",
+    "4": "",
+    "5": ""
+  },
+  "The Acquisition - Land": {
+    "1": "Has mathematical errors or missing subparcels. Values or percentages are wildly unreliable.",
+    "2": "Is missing any rationalization for percentages used, but otherwise all subparcels are there and seemingly valued correctly.",
+    "3": "All subparcels on appraisal map are present and the sizes match, and any underlying fee being acquired is captured and paid a dollar per subparcel, and any TCEs acquired have a rental rate applied by at a minimum a risk based percentage and included in the narrative, and any easements acquired have a percentage of fee applied that was rationalized in the narrative.",
+    "4": "All of 3, but instead of risk-based, the percentages are market derived from sales or property managers/brokers.",
+    "5": ""
+  },
+  "Improvements": {
+    "1": "Major math errors or no sourcing for values, or missing improvements or have more than are impacted.",
+    "2": "Like 3, but contains minor math errors, or missing some value sources. However, all improvements impacted are addressed with none that are arbitrarily added.",
+    "3": "Either states that no improvements will be impacted; or lists all improvements accurately that will be impacted and their respected values, along with sources for the improvements value.",
+    "4": "All of 3, but also includes line items for improvements impacted that have no value.",
+    "5": ""
+  },
+  "After Analysis (if required)": {
+    "1": "",
+    "2": "",
+    "3": "Abbreviated Analysis: Using this method was justified in report. Damages: Only minor improvements that affect a parcels marketability or protects department liability have been included. No major damages or parking loss. Full Analysis: Vacant: Same standards as parcel description, HABU, methodology, cost/sales/income approaches, and reconciliation sections before. A RW 7-12 included and the math is correct. Curative & incurable damages do not exceed severance damages. Both: Damages do not exceed the value of the property.",
+    "4": "",
+    "5": ""
+  },
+  "Cost to Cure": {
+    "1": "",
+    "2": "",
+    "3": "Curative items were either justified by mitigating an established severance damage determined by a full analysis, or in case of the abbreviated method, justified the rational for including minor curative damage item. Curative damages were calculated using: A cost guide with page and version references; A bid and checked with a cost guide; Multiple bids of the item needed to cure the damage.",
+    "4": "",
+    "5": ""
+  },
+  "Construction Contract Work": {
+    "1": "",
+    "2": "",
+    "3": "A statement confirming there was no damage to warrant any CCW; or Damages were established previously in the after analysis and not already paid, and CCW estimates were provided by design and included along with their PM and ES.",
+    "4": "",
+    "5": ""
+  },
+  "Summary of Just Compensation": {
+    "1": "",
+    "2": "",
+    "3": "A summary of methods used to come up with the value conclusions and how damages were determined or determined not substantiated. As well as any benefits or lack thereof. Lastly, addressed any CCW work.",
+    "4": "",
+    "5": ""
+  },
+  "Comparable Summary Page": {
+    "1": "",
+    "2": "",
+    "3": "List all comparable data used along with their: Sales date, zoning, size, land value data, improvements value data, and total price. For cap rates, the sales date, size, building size, the sales price, the NOI of the property, and the capitalization rate.",
+    "4": "",
+    "5": ""
+  },
+  "Comparable Map Sheet": {
+    "1": "No map included, or is not accurate.",
+    "2": "Contains everything in 3, but the north arrow is missing, or appraiser miscolored the properties.",
+    "3": "A map showing where the subject is in relation to the comparable data, with a north arrow, and have subject outlined in red, sales in orange, and listings in green.",
+    "4": "All of 3, but the size and shape of the parcels are all shown as well.",
+    "5": ""
+  },
+  "Comparable Data Sheets": {
+    "1": "One or more comparable properties used is missing a RW 7-11 or 7-11A.",
+    "2": "All comparables have a RW 7-11/7-11A but either the statement concurring with another agent is missing, or were inspected by another appraiser not on a certificate of appraiser.",
+    "3": "There is a RW 7-11 or 7-11A included for every comparable property that is completed in its entirety. Those verified by others were still inspected by the appraiser and added a statement they agree with the findings. May contain some minor information errors, but still enough to determine the comparable property.",
+    "4": "All of 3 but contains no errors.",
+    "5": ""
+  },
+  "Appraisal Maps": {
+    "1": "Is missing any mapping.",
+    "2": "",
+    "3": "Contains just appraisal maps that show the entire proposed acquisition.",
+    "4": "",
+    "5": "Contains both appraisal map(s) and index map. Appraisal maps shows the entire portion of the proposed acquisition."
+  },
+  "Appraisal Terms": {
+    "1": "Is missing or not complete and missing definitions.",
+    "2": "",
+    "3": "It is there and contains mostly update sources, with a few that could be outdated.",
+    "4": "",
+    "5": "Is there and contains all updated terms."
+  },
+  "Delegations": {
+    "1": "Report does not follow correct delegations or does not contain correct signatures.",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "Report follows correct delegations with no deviation and has all the required signatures."
+  },
+  "COS & HMDD": {
+    "1": "Hazardous Materials Disclosure Document (HMDD) is missing OR does not include the parcel number from the report; OR Certificate of Sufficiency (COS) is missing OR does not include the parcel number from the report; OR hazardous waste is being acquired but not valued per RW Manual requirements for hazardous waste.",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "Both HMDD and Certificate of Sufficiency are present, both include the parcel number from the report, and any hazardous waste being acquired is valued per RW Manual requirements."
+  },
+  "Diary, Notice of Decision to Appraise & Loss of Business Goodwill": {
+    "1": "RW Diary is missing OR Notice of Decision to Appraise Letter copy is missing OR (if a business operates on the subject) the Loss of Business Goodwill letter is missing.",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "RW Diary, Notice of Decision to Appraise Letter copy, and (if applicable) Loss of Business Goodwill letter are all included."
+  }
+}
