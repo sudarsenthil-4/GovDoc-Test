@@ -2,8 +2,6 @@ export const REQUIRED_ENV_VARS = [
   "OPENAI_API_KEY",
   "ANTHROPIC_API_KEY",
   "GROQ_API_KEY",
-  "GOVDOC_DEV_USER",
-  "GOVDOC_DEV_PASS",
   "GOVDOC_SESSION_SECRET",
 ] as const;
 

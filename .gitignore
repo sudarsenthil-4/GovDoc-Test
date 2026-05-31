@@ -14,6 +14,7 @@ dist/
 .env.*.local
 .env.local.*
 .env*.bak
+auth.local.json
 
 # editor / OS
 .DS_Store
@@ -32,6 +33,8 @@ tests/fixtures-private/
 # misc
 *.log
 .cache/
+__pycache__/
+*.pyc
 
 # git worktrees (project-local, per superpowers:using-git-worktrees skill)
 .worktrees/

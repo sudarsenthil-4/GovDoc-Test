@@ -1,11 +1,27 @@
 // @vitest-environment node
-import { describe, it, expect, beforeEach } from "vitest";
+import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { POST } from "./route";
 
-beforeEach(() => {
-  process.env.GOVDOC_DEV_USER = "joe";
-  process.env.GOVDOC_DEV_PASS = "secret";
+let tempDir: string;
+
+beforeEach(async () => {
+  tempDir = await mkdtemp(path.join(tmpdir(), "govdoc-auth-"));
+  process.env.GOVDOC_AUTH_FILE = path.join(tempDir, "auth.local.json");
   process.env.GOVDOC_SESSION_SECRET = "x".repeat(32);
+  await writeFile(
+    process.env.GOVDOC_AUTH_FILE,
+    JSON.stringify({
+      users: [{ uid: "joe", password: "secret", name: "Joe", role: "admin" }],
+    }),
+  );
+});
+
+afterEach(async () => {
+  delete process.env.GOVDOC_AUTH_FILE;
+  await rm(tempDir, { force: true, recursive: true });
 });
 
 function makeReq(body: unknown) {
