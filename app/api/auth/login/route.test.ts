@@ -21,6 +21,9 @@ beforeEach(async () => {
 
 afterEach(async () => {
   delete process.env.GOVDOC_AUTH_FILE;
+  delete process.env.GOVDOC_AUTH_JSON;
+  delete process.env.GOVDOC_AUTH_USERNAME;
+  delete process.env.GOVDOC_AUTH_PASSWORD;
   await rm(tempDir, { force: true, recursive: true });
 });
 
@@ -47,5 +50,24 @@ describe("POST /api/auth/login", () => {
     expect(setCookie).toContain("govdoc_session=");
     expect(setCookie).toContain("HttpOnly");
     expect(setCookie).toContain("SameSite=lax");
+  });
+
+  it("accepts credentials from simple environment variables", async () => {
+    delete process.env.GOVDOC_AUTH_FILE;
+    process.env.GOVDOC_AUTH_USERNAME = "vercel-user";
+    process.env.GOVDOC_AUTH_PASSWORD = "vercel-secret";
+
+    const res = await POST(makeReq({ username: "vercel-user", password: "vercel-secret" }));
+    expect(res.status).toBe(200);
+  });
+
+  it("accepts credentials from GOVDOC_AUTH_JSON", async () => {
+    delete process.env.GOVDOC_AUTH_FILE;
+    process.env.GOVDOC_AUTH_JSON = JSON.stringify({
+      users: [{ uid: "json-user", password: "json-secret" }],
+    });
+
+    const res = await POST(makeReq({ username: "json-user", password: "json-secret" }));
+    expect(res.status).toBe(200);
   });
 });
